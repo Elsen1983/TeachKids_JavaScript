@@ -16,7 +16,8 @@ var: This is an older way to create variables, but nowadays, it is recommended t
 
 Primitive Data Types in JavaScript:
 In JavaScript, there are several types of data that we can store in variables. 
-These are called primitive data types because they are the simplest types of data. Here are the main primitive types:
+These are called primitive data types because they are the simplest types of data. 
+Here are the main primitive types:
 Number: Stores numerical values. Examples: 5, 10.5, -3
 String: Stores text. A string is a group of characters inside quotes. Examples: "Hello", "JavaScript"
 Boolean: Stores either true or false. This is useful for making decisions. Examples: true, false
@@ -73,8 +74,73 @@ Memory is where all these boxes are stored, and it helps the computer remember t
 
 // SOLUTIONS:
 // TASK 1 - let variables
+// a
+let favoriteGame = 'Minecraft' 
+favoriteGame = 'Roblox'
 
+// b
+let foxAge = 2
+foxAge = foxAge + 1
+foxAge += 1
+foxAge ++
+console.log(foxAge)
 
+// c
+let teacher = 1
+let principal= 2
+let shcool = principal + teacher
 
+// d
+let one = 1
+let two = 2
+let twoMinusOne = two - one
+
+// e
+let tree = 3
+tree = tree * 2
+
+// f
+let homeworkDone = true
 
 // TASK 2 - const variables
+
+// a
+const favoritebook = "the bad guys"
+favoritebook = "nothing"
+//const is not chanchable
+
+// b
+const birthYear = 2014
+
+// c
+const favroiteColour = "red and black"
+console.log(favroiteColour)
+//console.log will paste it into the console log
+
+// d
+const wordOne = "Hi, "
+const wordTwo = "my "
+const wordTree = "name "
+const wordFour = "is "
+const wordFive = "Eric "
+let sentence = wordOne + ' ' + wordTwo + wordTree + wordFour + wordFive
+console.log(sentence)
+
+// e
+const hometown = "Bandon"
+let message = "I live in " + hometown
+console.log(message)
+
+const homeTown = "Cork"
+let messageTown = `I live in ${homeTown}`
+console.log(messageTown)
+
+// use the following just for console log
+const homeCountry = 'Ireland'
+console.log('I live in ', homeCountry)
+
+// f
+const hungry = false
+console.log(hungry)
+
+// make a game where you feed billy and when he is full happy will be set to true
