@@ -72,9 +72,43 @@ Then add the `games` array to the `player` object as a new property called `favo
 * */ 
 
 // TASK for ARRAYS
+// 1 
+let favouriteFoods = ['watermelon','pizza','nachos']
+console.log(favouriteFoods[0])
+
+// 2
+favouriteFoods.push('Burger')
+
+// 3
+let numbers = [1,2,3]
+let result = numbers[0] + numbers[1]
+console.log(result)
 
 
 // TASK for Objects
+// 1
+let book ={
+    title: 'the bad guys',
+    author: 'Aaron Blabey',
+    pages: 139
+}
+//2 
+console.log(book.title)
+console.log(book['pages'])
 
+//3
+book.pages = 137 
+console.log(book.pages)
 
 // Bonus TASK
+let player ={
+    name: 'billy bob the second',
+    score: 430,
+    level: 'noob god'
+
+}
+let games =['minecraft','fortnite','roblox']
+
+player['favoriteGames'] = games // OR player.favoriteGames = games
+
+console.log(player)
