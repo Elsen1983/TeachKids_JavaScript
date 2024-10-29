@@ -75,7 +75,9 @@ Check if a number is positive or not.
  Task 3 - `if...else if...else` Statement
 Check if a number is positive, zero, or negative.
 1. Declare a variable with a number.
-2. Create an `if...else if...else` statement that prints "The number is positive" if the number is greater than 0, "The number is 0" if the number is 0, and "The number is negative" if it's less than 0.
+2. Create an `if...else if...else` statement that prints "The number is positive" if the number is greater than 0, 
+"The number is 0" if the number is 0, 
+and "The number is negative" if it's less than 0.
 3. Test it with positive, negative, and zero values.
 
  Task 4 - Pokémon Battle
@@ -96,4 +98,72 @@ Let's simulate a Pokémon battle!
 3. Use an `if...else if...else` statement to tell the user if they guessed too high, too low, or got it right!
  */
 
+// 1
+let number = 10
+if (number > 0) {
+  console.log('number is positive')
+}
 
+// 2
+let number1 = 10
+if (number1 > 0) {
+  console.log('number is positive')
+} else {
+  console.log('The number is either negative or 0')
+}
+
+// 3
+let number2 = 10
+if (number2 > 0) {
+  console.log('number is positive')
+}
+else if (number2 === 0) { 
+  console.log('The number is 0') 
+}
+else {
+  console.log('The number is either negative')
+}
+
+//4
+let pokémonOne = 'Kingler'
+let pokémonOneHP = 459
+let pokémonOneDMG = 180
+let pokémonTwo = 'Koffing'
+let pokémonTwoHP = 290
+let pokémonTwoDMG = 190
+
+// Generate a random float between 0 and 1
+let randomNumber = Math.random();
+if (randomNumber === 1){
+  console.log(`pokemon two (${pokémonTwo}) starts`)
+}
+else {console.log (`pokemon one (${pokémonOne}) starts`) 
+}
+
+// 5 
+let weather = 'cloudy'
+if (weather === 'sunny'){
+  console.log('Go for a walk')
+} else if (weather === 'rainy'){
+  console.log('stay inside')
+} else {
+  console.log('do what you want')
+}
+
+// 6
+let favoriteNumber = 66
+// Prompt the user for input
+let userInput = prompt("Please enter a number between 0 and 100:");
+
+// Convert the input to a number (in case you need to use it in calculations)
+let numberInput = parseFloat(userInput);
+
+console.log("You entered:", numberInput);
+
+if (numberInput === 66){
+  console.log('wow right on')
+}else if (numberInput <66){
+  console.log ('sorry thats under')
+} else {
+  console.log('sorry thats over')
+}
